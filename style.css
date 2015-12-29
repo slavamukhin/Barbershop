@@ -226,3 +226,22 @@ body{
     left:466px;
     top:78px;
 }
+.block-b{
+    width:940;
+    margin:0 auto;
+    background:url('/verstka/BarbershopBorodinski/img/sm-1.jpg');
+    margin-top:81px;
+    position:relative;
+    height:430px;
+}
+.block-b:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.block-b .block1{
+    float:left;
+}
+.block-b .block2{
+    float:left;
+}
