@@ -233,6 +233,7 @@ body{
     margin-top:81px;
     position:relative;
     height:430px;
+    margin-top:34px;
 }
 .block-b:after{
     content:'';
