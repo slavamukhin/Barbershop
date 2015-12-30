@@ -303,37 +303,42 @@ body{
 form input[type='text']{
     padding:10px;
     width:111px;
-    border:2px solid black;
+    border:2px solid #000;
     margin-right:17px;
     margin-bottom:19px;
     padding-left:15px;
     height:19px;
 }
 ::-webkit-input-placeholder{
+    font-family: 'PT Sans Narrow', sans-serif;
     text-transform:uppercase;
     font-size:14px;
     font-weight:bold;
-    color:black;
+    color:#000;
 }
 ::-moz-placeholder{
+    font-family: 'PT Sans Narrow', sans-serif;
     text-transform:uppercase;
     font-size:14px;
     font-weight:bold;
-    color:black;
+    color:#000;
 }
 :-ms-input-placeholder{  
+    font-family: 'PT Sans Narrow', sans-serif;
     text-transform:uppercase;
     font-size:14px;
     font-weight:bold;
-    color:black;
+    color:#000;
 }
 :-moz-placeholder{
+    font-family: 'PT Sans Narrow', sans-serif;
     text-transform:uppercase;
     font-size:14px;
     font-weight:bold;
     color:black;  
 }
 input[type='submit']{
+    font-family: 'PT Sans Narrow', sans-serif;
     margin-top:10px;
     display:block;
     width:300px;
@@ -344,4 +349,8 @@ input[type='submit']{
     font-size:14px;
     font-weight:bold;
     border:none;
+}
+input[type='submit']:hover{
+    background:#fff;
+    color:#000;
 }
