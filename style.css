@@ -376,6 +376,7 @@ input[type='submit']:hover{
     text-transform:uppercase;
     font-size:14px;
     color:#fff;
+    text-align:center;
 }
 .footer-author{
     float:right;
@@ -416,4 +417,19 @@ q{
 }
 .footer a{
     margin-top:6px;
+}
+.footer-social a{
+    display:block;
+    width:43px;
+    height:43px;
+    float:left;
+    margin-right:20px;
+    background-image:url('/verstka/BarbershopBorodinski/img/social-icon.jpg')
+}
+.footer-social a:last-child{
+    margin-right:0;
+    background-position:-98px;
+}
+.footer-social a:nth-child(3){
+    background-position:-49px;
 }
