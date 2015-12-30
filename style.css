@@ -142,14 +142,14 @@ body{
     position:relative;
     height:430px;
 }
-.block1{
+.block .block1{
     width:300px;
     float:left;
     padding-left:80px;
     padding-top:46px;
     padding-right:90px;
 }
-.block2{
+.block .block2{
     width:380px;
     float:right;
     padding-left:90px;
@@ -160,7 +160,7 @@ body{
     display:table;
     clear:both;
 }
-.block1 .block-title{
+.block .block1 .block-title{
     font-size:30px;
     font-weight:bold;
     text-transform:uppercase;
@@ -172,7 +172,7 @@ body{
     text-transform:uppercase;
     line-height:24px;
 }
-.block1 p{
+.block .block1 p{
     font-family:Georgia, serif;
     font-style:italic;
     font-size:14px;
@@ -201,20 +201,20 @@ body{
     background:#fff;
     color:#000;
 }
-.block2 img{
+.block .block2 img{
     padding-left:8px;
     margin-bottom:38px;
 }
-.block2 .block-title{
+.block .block2 .block-title{
     margin-bottom:39px;
     font-size:30px;
     font-weight:bold;
     text-transform:uppercase;
 }
-.block2 .btn{
+.block .block2 .btn{
     float:left;
 }
-.block2 div:last-child{
+.block .block2 div:last-child{
     margin-left:20px;
 }
 .block .block1 .block-title:after{
@@ -234,6 +234,7 @@ body{
     position:relative;
     height:430px;
     margin-top:34px;
+    position:relative;
 }
 .block-b:after{
     content:'';
@@ -242,7 +243,40 @@ body{
 }
 .block-b .block1{
     float:left;
+    padding-top:46px;
+    padding-left:81px;
+    width:389px;
+}
+.block-b .block1 .block-title{
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.block1 .address,
+.block1 .time-work{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:14px;
+    padding-top:21px;
+    line-height:24px;
+}
+.block-b .block1 .btn{
+    float:left;
+    margin-top:47px;
+    margin-right:20px;
+}
+.block-b .block1 .block-title:after{
+    content:'';
+    position:absolute;
+    background:url('/verstka/BarbershopBorodinski/img/shadow.png') no-repeat 0 0;
+    width:8px;
+    height:278px;
+    left:466px;
+    top:78px;
 }
 .block-b .block2{
-    float:left;
+    float:right;
+    width:380px;
+    padding-top:46px;
+    padding-left:90px;
 }
